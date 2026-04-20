@@ -12890,7 +12890,7 @@ modules[tbl.Creator] = function()
 		return DragModule
 	end
 
-	Icons.Init(New, "Icon")
+	--Icons.Init(New, "Icon")
 
 	function Creator.SanitizeFilename(url)
 		local filename = url:match("([^/]+)$") or url
